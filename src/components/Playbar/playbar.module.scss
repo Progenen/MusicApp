@@ -55,3 +55,34 @@
     flex-basis: 500px;
     margin-left: auto;
   }
+
+  @media (max-width:920px){
+    .playbar {
+      .container {
+        gap: 15px;
+        justify-content: center;
+      }
+    }
+
+    .slider {
+      margin-left: 15px;
+      flex-basis: 350px;
+    }
+  }
+
+  @media (max-width:665px){
+    .playbar {
+      .container {
+        justify-content: flex-start;
+        padding: 15px;
+        height: 110px;
+        flex-wrap: wrap;
+      }
+    }
+
+    .slider {
+      flex-basis: 95%;
+      width: 95%;
+      margin-left: 0;
+    }
+  }
